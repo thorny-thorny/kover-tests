@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 public class JvmGreetersTests {
     @Test
     public void testJvmGreeters() {
-        Assertions.assertAll(() -> {
+        Assertions.assertDoesNotThrow(() -> {
             new JvmGreeterWithOptional();
             new JvmGreeterWithOptional("Thorny");
         });
