@@ -31,5 +31,5 @@ application {
 
 kover {
     coverageEngine.set(kotlinx.kover.api.CoverageEngine.INTELLIJ)
-    intellijEngineVersion.set("1.0.660")
+    intellijEngineVersion.set("1.0.661")
 }
